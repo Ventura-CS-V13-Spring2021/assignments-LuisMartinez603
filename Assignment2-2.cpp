@@ -17,8 +17,10 @@ int main()
 else 
 {
   if ( number2 == number3 )
+		// n1 != n2 and n2 == n3
        cout << "n1,n2,n3 are the same" << endl;
   else 
+		// n1 != n2 and n2 != n3
        cout << "n2 and n3 are the same" << endl;
 
 }
