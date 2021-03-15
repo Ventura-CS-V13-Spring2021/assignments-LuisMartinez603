@@ -3,25 +3,23 @@ using namespace std;
 
 int main()
 {
-	int 	begin, end;
-	int	i, p;
+	int num,i ;
+  int range1, range2;
 
-	do {
-		cout << "Enter your range [from, to] \n";
-		cin >> begin >> end;
-	} while( begin >= end || begin < 2 || end < 0) ;
+  cout << "Enter your range : ";
+  cin >> range1 >> range2;
 
-
-	for(p=begin; p<=end; p++)
-	{
-		if ( p ==0 || p == 1)
-			continue;
-//*		for(i=2;i<p;i++)
-		for(i=2; i<=(p/2); i++)
-			if ( p % i == 0) 
-				break;
-		if ( i > (p/2) )
-			cout << " Prime number : " << p << endl;
+  for(num=range1; num <= range2; num++)
+  {
+    for(i=2; i<num; i++)
+    {
+      if (num % i == 0)
+       break;
+    }
+    if ( i == num )
+      cout << num << " This number is prime number\n";
+    else
+      cout << num << "This number is NOT prime number\n";
 	}
 
 }
