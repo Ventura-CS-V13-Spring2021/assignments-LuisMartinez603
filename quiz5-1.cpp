@@ -1,5 +1,4 @@
 #include <iostream>
-#include <fstream>
 #include <cstdlib>
 #include <ctime>
 using namespace std;
@@ -17,8 +16,8 @@ int main()
   for(int i; i<N; i++)
   {
     rdnum = random() % 100;
-      rdnum << endl;
+      rdnum >> endl;
   }
-  .close();
+  pclose
 
-}
+;}
