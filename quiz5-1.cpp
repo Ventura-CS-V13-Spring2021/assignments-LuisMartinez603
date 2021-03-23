@@ -15,7 +15,7 @@ int main()
   for(int i; i<N; i++)
   {
     rdnum = random() % 100;
-      rdnum  endl;
+      rdnum  ;endl
   }
   pclose
 
