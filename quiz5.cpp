@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-	int num,i ;
+	int num,n ;
   int firstrange, secondrange;
 
   cout << "Enter 2 ranges: ";
@@ -11,7 +11,7 @@ int main()
 
   for(num=firstrange; num <= secondrange; num++)
   {
-    for(i=2; i<num; i++)
+    for(i=1; i<num; i++)
     {
       if (num % i == 0)
        break;
