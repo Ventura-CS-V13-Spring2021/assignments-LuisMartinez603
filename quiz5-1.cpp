@@ -8,7 +8,6 @@ int main()
   int rdnum;
   int N;
   
-
   cout << "Enter the number of rdnum \n";
   cin >> N;
 
@@ -16,7 +15,7 @@ int main()
   for(int i; i<N; i++)
   {
     rdnum = random() % 100;
-      rdnum >> endl;
+      rdnum  endl;
   }
   pclose
 
