@@ -6,7 +6,7 @@ int main()
 	int num,i ;
   int firstrange, secondrange;
 
-  cout << "Enter 2 ranges : ";
+  cout << "Enter 2 ranges: ";
   cin >> firstrange >> secondrange;
 
   for(num=firstrange; num <= secondrange; num++)
